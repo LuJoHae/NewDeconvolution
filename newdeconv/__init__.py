@@ -1,7 +1,7 @@
 import numpy as np
 
-import gibbscellprism.validation
-import gibbscellprism.utils
+import newdeconv.validation
+import newdeconv.utils
 
 def _deconvolution(bulk: np.array, reference: np.array, n: int, eps: float) -> np.array:
     """
