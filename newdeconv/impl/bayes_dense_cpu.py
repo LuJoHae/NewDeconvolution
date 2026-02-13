@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.random import Generator
 
-from gibbscellprism._impl.core import _validate_reference, _initialize_deconvolution_arrays, _validate_bulk, _update_probability_matrix_inplace
+from newdeconv.impl.core import _validate_reference, _initialize_deconvolution_arrays, _validate_bulk, _update_probability_matrix_inplace
 
 
 def _bayes_prism(

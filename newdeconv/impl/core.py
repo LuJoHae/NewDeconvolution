@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import typing as npt
 from scipy.sparse import csr_matrix
-from gibbscellprism import _logging
+from newdeconv import _logging
 
 
 def _update_cell_fractions_estimate_by_fixpoint_inplace(cell_fractions: np.ndarray,

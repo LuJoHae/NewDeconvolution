@@ -2,8 +2,8 @@ import cupy as cp
 import numpy as np
 from cupyx.scipy.sparse import csr_matrix as csr_matrix_gpu
 
-from gibbscellprism import _logging
-from gibbscellprism._impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace
+from newdeconv import _logging
+from newdeconv.impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace
 
 
 def _insta_prism_sparse_gpu(

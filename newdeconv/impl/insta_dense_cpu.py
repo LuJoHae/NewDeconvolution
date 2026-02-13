@@ -1,7 +1,7 @@
 import numpy as np
 
-from gibbscellprism import _logging
-from gibbscellprism._impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace, _validate_reference, \
+from newdeconv import _logging
+from newdeconv.impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace, _validate_reference, \
     _initialize_deconvolution_arrays, _validate_bulk, _update_probability_matrix_inplace
 
 

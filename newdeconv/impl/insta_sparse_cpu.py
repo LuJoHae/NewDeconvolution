@@ -1,8 +1,8 @@
 import numpy as np
 from scipy.sparse import csr_matrix
 from numba import njit
-from gibbscellprism import _logging
-from gibbscellprism._impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace, _validate_reference_sparse, \
+from newdeconv import _logging
+from newdeconv.impl.core import _update_cell_fractions_estimate_by_fixpoint_inplace, _validate_reference_sparse, \
     _initialize_deconvolution_sparse_matrices, _validate_bulk
 
 
