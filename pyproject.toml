@@ -1,0 +1,33 @@
+[project]
+name = "newdeconv"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Lukas Jonathan Haeuser",email = "lhaeuser@ethz.ch"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.3.4,<3.0.0)",
+    "scipy (>=1.16.3,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "anndata (>=0.12.5,<0.13.0)",
+    "datalair @ git+https://github.com/LuJoHae/datalair.git",
+    "scanpy (>=1.11.5,<2.0.0)",
+    "sparse (>=0.17.0,<0.18.0)",
+    "numba (>=0.62.1,<0.63.0)",
+]
+
+[dependency-groups]
+dev = [
+    "pytest (>=8.4.2,<9.0.0)",
+    "pytest-benchmark (>=5.2.3,<6.0.0)"
+]
+docs = [
+    "mkdocs (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
